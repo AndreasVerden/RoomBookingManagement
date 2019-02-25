@@ -1,4 +1,4 @@
-package ch.lanza.rmb.application;
+package ch.lanza.rbm.application;
 
 import java.net.MalformedURLException;
 import java.rmi.AlreadyBoundException;
@@ -15,9 +15,9 @@ import ch.lanza.rbm.domain.services.RoomRepository;
 import ch.lanza.rbm.persistence.InMemoryClientRepository;
 import ch.lanza.rbm.persistence.InMemoryReservationRepository;
 import ch.lanza.rbm.persistence.InMemoryRoomRepository;
-import ch.lanza.rmb.application.services.ClientRmiService;
-import ch.lanza.rmb.application.services.ReservationRmiService;
-import ch.lanza.rmb.application.services.RoomRmiService;
+import ch.lanza.rbm.application.services.ClientRmiService;
+import ch.lanza.rbm.application.services.ReservationRmiService;
+import ch.lanza.rbm.application.services.RoomRmiService;
 
 public class RmiServer {
 	public static void main(String[] args) throws RemoteException, MalformedURLException, AlreadyBoundException {

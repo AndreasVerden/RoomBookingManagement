@@ -1,4 +1,4 @@
-package ch.lanza.rmb.persistence;
+package ch.lanza.rbm.persistence;
 
 import java.util.HashSet;
 import java.util.UUID;

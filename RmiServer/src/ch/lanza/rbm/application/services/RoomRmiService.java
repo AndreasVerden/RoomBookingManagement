@@ -1,4 +1,4 @@
-package ch.lanza.rmb.application.services;
+package ch.lanza.rbm.application.services;
 
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
